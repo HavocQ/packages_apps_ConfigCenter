@@ -32,6 +32,13 @@
         android:entryValues="@array/screenshot_type_values"
         android:defaultValue="0" />
 
+    <com.havoc.support.preferences.SystemSettingListPreference
+	android:key="systemui_plugin_volume"
+	android:title="@string/volume_panel"
+	android:entries="@array/volume_panel_entries"
+	android:entryValues="@array/volume_panel_values"
+	android:defaultValue="@string/volume_panel_aosp_val" />
+
     <PreferenceCategory
         android:key="charge"
         android:title="@string/charge_title">
