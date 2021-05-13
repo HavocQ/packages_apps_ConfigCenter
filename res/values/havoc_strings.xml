@@ -888,4 +888,8 @@
     <string name="pulse_location_both">Both</string>
     <string name="pulse_location_both_summary">Lockscreen and Navbar</string>
 
+    <!-- R Notification headers -->
+    <string name="notification_headers_title">R-Style Notifications</string>
+    <string name="notification_headers_summary">Whether to show R style notification headers (Requires a SystemUI restart)</string>
+
 </resources>
